@@ -1,0 +1,15 @@
+Import the Vuforia plugin and your image database into Unity.
+In the Vuforia folder, click and drag the ARCamera prefab into the hierarchy.
+Find the imageTarget prefab in the same folder and drag it into the hierarchy as well.
+In the scene, move the imageTarget prefab away from the camera
+by a few units.
+Drag it onto the ARCamera prefab (making it a child).
+Using cubes create a 3D copy of the maze on top of the image target.
+Make a small sphere and create a new material.
+Drag the new material onto the sphere and make it a bright color.
+Create a cube and place it above the maze (this is going to be the spawn point for the sphere).
+Remove the mesh renderer and collider of the sphere.
+Add a C# script to the sphere, call it "ballScript" and paste the code
+In the scene view, click the sphere, and on the ball script, drag the plane and the cube into their respective places.
+In the hierarchy, drag the plane, the sphere, and the cube on top of the image target to make them children.
+Click play and all should be well.
